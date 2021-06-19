@@ -99,7 +99,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 - Clone repository for correct files `git clone https://uci.bootcampcontent.com/maxcasas/casas_maximiliano/tree/master/ELK%20Stack%20Project`
-- Move the files into the correct directory `mv ./files/* /etc/ansible`
+- Move the configuration and playbook files into the correct directory `mv ./files/* /etc/ansible`
 - Create and Configure the Hosts file `/etc/ansible/hosts` ![Hosts file Configuration](Images/ansible-hosts-config.png)
 - Run the playbooks;
 - `ansible-playbook /etc/ansible/ELK-stack-playbook.yml`
@@ -108,9 +108,3 @@ SSH into the control node and follow the steps below:
 
 - Then run `curl http://51.143.35.76:5601/app/kibana`. If the installation worked, this command should print HTML to the console.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
