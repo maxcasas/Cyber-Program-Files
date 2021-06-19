@@ -4,7 +4,7 @@ Contains scripts, configurations, and diagrams used during the Cybersecurity pro
 
 The files in this repository were used to configure the network depicted below.
 
-![ELK Stack Diagram](Images/elk-stack-diagram.png)
+![ELK Stack Diagram](Diagrams/elk-stack-diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
