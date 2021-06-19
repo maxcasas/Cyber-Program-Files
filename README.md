@@ -11,7 +11,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 [ELK Playbook](https://uci.bootcampcontent.com/maxcasas/casas_maximiliano/blob/master/ELK%20Stack%20Project/Files/ELK-stack-playbook.yml)
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
