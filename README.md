@@ -62,7 +62,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 Configuration with Ansible allows you to automate your applications across multiple servers on the same network.
-[ELK Playbook](https://uci.bootcampcontent.com/maxcasas/casas_maximiliano/blob/master/ELK%20Stack%20Project/Files/ELK-stack-playbook.yml)
+[ELK Playbook](https://github.com/maxcasas/Cyber-Program-Files/blob/main/Ansible/elk-playbook.yml)
 
 The playbook implements the following tasks:
 - Configure the ELK machine to use more memory
