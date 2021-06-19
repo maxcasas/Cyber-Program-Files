@@ -6,9 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 ![ELK Stack Diagram](Diagrams/elk-stack-diagram.png)
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
-
-[ELK Playbook](https://uci.bootcampcontent.com/maxcasas/casas_maximiliano/blob/master/ELK%20Stack%20Project/Files/ELK-stack-playbook.yml)
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook files may be used to install only certain pieces of it, such as Filebeat.
 
 This document contains the following details:
 - Description of the Topology
@@ -64,6 +62,7 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 Configuration with Ansible allows you to automate your applications across multiple servers on the same network.
+[ELK Playbook](https://uci.bootcampcontent.com/maxcasas/casas_maximiliano/blob/master/ELK%20Stack%20Project/Files/ELK-stack-playbook.yml)
 
 The playbook implements the following tasks:
 - Configure the ELK machine to use more memory
