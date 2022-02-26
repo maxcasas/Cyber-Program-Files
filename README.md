@@ -91,7 +91,7 @@ These Beats allow us to collect the following information from each machine:
 - **MetricBeat** Metricbeat detects changes in system metrics, such as CPU usage. We use it to detect SSH login attempts, failed `sudo` escalations, and CPU/RAM statistics.
 
 The playbook below installs Metricbeat on the target hosts. The playbook for installing Filebeat is not included, but looks essentially identical - simply replace `metricbeat` with `filebeat`, and it will work as expected.
-![Metricbeat and Filebeat Installation](https://github.com/maxcasas/ELK-Stack-Project/tree/main/Ansible)
+[Metricbeat and Filebeat Installation](https://github.com/maxcasas/ELK-Stack-Project/tree/main/Ansible)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
